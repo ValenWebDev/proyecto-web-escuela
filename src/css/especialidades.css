@@ -1,0 +1,40 @@
+main .especialidad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+  color: #000;
+  background: #f0f0f0;
+  margin: 1em;
+  border-radius: 10px;
+  gap: 1em;
+}
+
+main .especialidad h1 {
+  margin-bottom: 1em;
+}
+
+main .especialidad p {
+  width: 90%;
+  font-size: 1.3em;
+}
+
+main .especialidad h2 {
+  width: 90%;
+  text-decoration: underline;
+}
+
+main .especialidad ul {
+  width: 85%;
+  font-size: 1.3em;
+}
+
+@media (max-width: 800px) {
+  main .especialidad h1 {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    padding: 0 1em;
+  }
+}

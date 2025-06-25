@@ -1,0 +1,57 @@
+main .datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+  color: #000;
+  background: #f0f0f0;
+  margin: 1em;
+  border-radius: 10px;
+  gap: 1em;
+}
+
+main .datos h1 {
+  margin-bottom: 1em;
+}
+
+main .datos p {
+  width: 90%;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+main .mapContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0;
+  color: #000;
+  background: #f0f0f0;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+main .mapa {
+  width: 90%;
+  height: 500px;
+  border-radius: 10px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  main .datos h1 {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    padding: 0 1em;
+  }
+
+  main .mapContainer h1 {
+    font-size: 1.5em;
+  }
+}

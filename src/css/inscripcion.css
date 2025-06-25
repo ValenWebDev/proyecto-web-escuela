@@ -1,0 +1,77 @@
+main .datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 1em;
+  color: #000;
+  background: #f0f0f0;
+  margin: 1em;
+  border-radius: 10px;
+  gap: 1em;
+  min-height: 64vh;
+}
+
+main .datos h1 {
+  margin-bottom: 1em;
+}
+
+.nota {
+  width: 90%;
+  text-align: center;
+  font-size: 1.3em;
+  color: #e24040;
+}
+
+.aviso {
+  width: 90%;
+  text-align: center;
+  font-size: 1.3em;
+  color: #40e271;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.formulario .campoBoton {
+  flex: 1 190px 190px;
+  min-width: 350px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  background: #001eff;
+  font-size: 1.2em;
+  padding: 3px;
+  border-radius: 3px;
+  color: #fff;
+  transition: 200ms;
+  text-decoration: none;
+  text-align: center;
+}
+
+#descargar {
+  background: #40e271;
+}
+
+#descargar:hover {
+  background: #2c2c2c;
+}
+
+.formulario .campoBoton:hover {
+  background: #2c2c2c;
+}
+
+@media (max-width: 800px) {
+  main .datos h1 {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    padding: 0 1em;
+  }
+}

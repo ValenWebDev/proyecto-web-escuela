@@ -1,0 +1,30 @@
+footer {
+  background: #F0F0F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 2em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: #000;
+}
+
+footer .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  width: 33.33%;
+}
+
+@media (max-width: 800px) {
+  footer {
+    flex-direction: column;
+  }
+
+  footer .info {
+    font-size: 0.8em;
+    width: 100%;
+  }
+}

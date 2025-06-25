@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'isocpeur';
+  src: url('../archives/isocpeur.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'isocpeur', sans-serif;
+}
+
+body {
+  background: #a5a5a5;
+}
+
+.change-theme {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+header.dark .change-theme i {
+  color: #F0F0F0;
+}
+
+body.dark {
+  color: #f0f0f0;
+  background: #0d0d0d;
+}
+
+header.dark {
+  color: #f0f0f0;
+  background: #1d1d1d;
+}
+
+header.dark .dropdown-menu {
+  background: #0d0d0d;
+  color: #f0f0f0;
+}
+
+header.dark nav ul li a {
+  color: #f0f0f0;
+}
+
+.carouselContainer.dark {
+  color: #f0f0f0;
+  background: #1d1d1d;
+}
+
+.carousel-btn.dark {
+  color: #f0f0f0;
+  background: #0d0d0d;
+}
+
+.historia.dark {
+  color: #f0f0f0;
+  background: #1d1d1d;
+}
+
+.videoContainer.dark {
+  color: #f0f0f0;
+  background: #1d1d1d;
+}
+
+.especialidad.dark {
+  color: #f0f0f0;
+  background: #1d1d1d;
+}
+
+.datos.dark {
+  color: #f0f0f0;
+  background: #1d1d1d;
+}
+
+.mapContainer.dark {
+  color: #f0f0f0;
+  background: #1d1d1d;
+}
+
+footer.dark {
+  color: #f0f0f0;
+  background: #1d1d1d;
+}
+
+.formulario form .campoBoton.dark:hover {
+  background: #5e5e5e;
+  color: #fff;
+}
+
+#descargar.dark:hover {
+  background: #5e5e5e;
+  color: #fff;
+}
