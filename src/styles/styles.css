@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Reset y variables */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+    --color-bg:#f9f9f9;
+    --color-text:#222;
+    --color-primary:#003366;
+    --color-accent:#ffcc00;
+    --gap:1rem;
+    font-size:16px;
+}
+body{font-family:'Inter',sans-serif;background:var(--color-bg);color:var(--color-text);line-height:1.5}
+
+/* Header */
+.header{background:var(--color-primary);color:#fff;padding:var(--gap)}
+.header__brand{display:flex;align-items:center;gap:.5rem}
+.header__logo{width:40px}
+.nav__list{display:flex;flex-wrap:wrap;gap:var(--gap);list-style:none}
+.nav__item a{color:#fff;text-decoration:none;font-weight:700}
+
+/* Mobile */
+@media (max-width:768px){
+    .nav{display:none}
+    .nav--open{display:block}
+    .nav__list{flex-direction:column}
+}
+
+/* Footer */
+.footer{background:var(--color-primary);color:#fff;padding:var(--gap);display:flex;flex-wrap:wrap;gap:var(--gap)}
+.footer__info{display:flex;align-items:center;gap:.5rem}
+.footer i{color:var(--color-accent)}
