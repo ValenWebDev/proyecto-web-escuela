@@ -1,0 +1,17 @@
+# ▾ DEPENDENCIAS
+/node_modules/
+/vendor/
+/dist/
+
+# ▾ ASSETS GRANDES (usa Git LFS o ignóralos)
+/src/assets/videos/
+/src/assets/img/originals/
+
+# ▾ SISTEMA
+.DS_Store
+Thumbs.db
+
+# ▾ IDE / EDITOR
+.vscode/
+.idea/
+*.log
