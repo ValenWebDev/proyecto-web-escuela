@@ -16,6 +16,8 @@
 
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/d0c30b1127.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.example.com/fonts/isocpeur/1.0.0/css/isocpeur.min.css" />
+
     </head>
     <body class="<?php echo $pageSlug ?? 'page--home'; ?>">
     <header class="header">
