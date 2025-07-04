@@ -221,6 +221,68 @@ a:hover{text-decoration:underline}
     .specialties{max-width: 90dvw}
 }
 
+/* ===== HISTORIA (mobile-first) ===== */
+
+.historia { margin-top: 2rem; text-wrap-style: pretty;}
+
+.historia__title {
+    font-size: clamp(1.5rem, 4dvw, 2.5rem);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.historia__paragraph {
+    max-width: 100ch;
+    padding: 10px;
+    font-size:  clamp(1.3rem, 3dvw, 1.75rem);;
+    margin: 0 auto 1rem;
+    text-align: justify;
+}
+
+/* Vídeos */
+
+.video-frame {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16/9;      /* mantiene proporción */
+    overflow: hidden;
+    border-radius: .75rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,.2);
+    margin: 1rem auto 2rem;
+}
+
+.video-frame video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.historia__subtitle {
+    font-size: clamp(1.25rem, 2.5dvw, 2.5rem);
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+.historia__intro,
+.historia__video {
+    background: var(--color-header-bg);   /* tarjeta blanca */
+    border-radius: .75rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    margin: 0 auto 2rem;
+    width: 92dvw;               /* mobile */
+    padding: 10px;
+}
+
+
+/* ≥768 px – desktop */
+@media (min-width:768px) {
+    .video-frame       { max-width: 75dvw; }
+    .historia__intro,
+    .historia__video { width: 80dvw; }
+}
+
 /* =========================================
     FOOTER
    ========================================= */
