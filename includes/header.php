@@ -41,6 +41,14 @@
             <li class="nav__item"><a href="/public/inscripcion.php">Inscripción</a></li>
             <li class="nav__item"><a href="http://eestn1tfeb.blogspot.com/" target="_blank">Blog</a></li>
 
+            <!-- Instagram -->
+            <li class="nav__item">
+                <a href="https://www.instagram.com/eestn1.tf/" target="_blank" aria-label="Instagram oficial">
+                    <i class="fa-brands fa-instagram"></i> <span class="sr-only">Instagram</span>
+                </a>
+            </li>
+
+            <!-- Tema claro/oscuro -->
             <li class="nav__item">
                 <button class="theme-switch" id="themeSwitch" aria-label="Cambiar tema">
                     <i class="fa-solid fa-sun"></i>
