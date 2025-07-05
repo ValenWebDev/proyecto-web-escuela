@@ -9,7 +9,7 @@
 <p align="center">
   <a href="#características">Características</a> •
   <a href="#estructura">Estructura</a> •
-  <a href="	#cambios-principales-vs-legacy">Cambios </a> •
+  <a href="	#cambios-principales-vs-legacy">Cambios</a> •
   <a href="#instalación">Instalación</a> •
   <a href="#desarrollo">Flujo de trabajo</a> •
   <a href="#créditos">Créditos</a>
