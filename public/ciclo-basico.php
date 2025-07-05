@@ -53,3 +53,5 @@ foreach ($parrafos as $p) {
 </main>
 
 <?php include '../includes/footer.php'; ?>
+
+

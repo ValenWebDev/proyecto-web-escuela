@@ -53,3 +53,5 @@
 
 <?php include '../includes/footer.php'; ?>
 <link rel="stylesheet" href="/styles/pages/historia.css">
+
+
