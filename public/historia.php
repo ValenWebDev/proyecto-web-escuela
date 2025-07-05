@@ -1,7 +1,7 @@
 <?php
-  $pageTitle = 'Historia';
-  $pageSlug  = 'page--historia';
-  include '../includes/header.php';
+    $pageTitle = 'Historia';
+    $pageSlug  = 'page--historia';
+    include '../includes/header.php';
 ?>
 
     <main class="historia | u-container">
