@@ -6,7 +6,7 @@
 
 <main class="inscripcion | u-container">
 
-    <section class="card">
+    <section class="card reveal">
         <h1 class="card__title">Pre-Inscripción a la técnica</h1>
 
         <p class="card__note" role="alert">

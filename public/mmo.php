@@ -8,11 +8,11 @@
 
     <!-- Título principal -->
     <section class="historia__intro">
-        <h1 class="historia__title especialidad__title">MAESTRO MAYOR DE OBRAS</h1>
+        <h1 class="historia__title especialidad__title reveal">MAESTRO MAYOR DE OBRAS</h1>
     </section>
 
     <!-- Objetivos -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">Objetivos</h2>
 
         <p class="historia__paragraph">
@@ -52,7 +52,7 @@
     </section>
 
     <!-- Plan de estudios -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">
             Plan de estudios: Tecnicatura en Informática • Duración estimada: 4 años
         </h2>

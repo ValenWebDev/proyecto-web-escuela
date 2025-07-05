@@ -7,12 +7,12 @@
 <main class="historia | u-container">
 
     <!-- Título principal -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h1 class="historia__title especialidad__title">TÉCNICO EN INFORMÁTICA</h1>
     </section>
 
     <!-- Objetivos -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">Objetivos</h2>
 
         <p class="historia__paragraph">
@@ -32,7 +32,7 @@
     </section>
 
     <!-- Campo ocupacional -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">Campo ocupacional</h2>
 
         <p class="historia__paragraph">
@@ -48,7 +48,7 @@
     </section>
 
     <!-- Prácticas -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">Prácticas profesionalizantes</h2>
 
         <p class="historia__paragraph">
@@ -57,7 +57,7 @@
     </section>
 
     <!-- Plan de estudios -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">
         Plan de estudios: Tecnicatura en Informática • Duración estimada: 4 años
         </h2>

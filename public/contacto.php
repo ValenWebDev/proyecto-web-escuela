@@ -7,7 +7,7 @@
 <main class="contacto | u-container">
 
     <!-- ===== Datos de contacto ===== -->
-    <section class="contacto__card">
+    <section class="contacto__card reveal">
 
         <h2 class="contacto__heading">Dirección</h2>
         <p  class="contacto__text">
@@ -29,7 +29,7 @@
     </section>
 
     <!-- ===== Mapa Google ===== -->
-    <section class="contacto__map">
+    <section class="contacto__map reveal">
         <h2 class="contacto__map-heading">Ubicación de la técnica</h2>
 
         <div class="contacto__map-frame">

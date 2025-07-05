@@ -12,7 +12,7 @@
 </section>
 
 <!-- ESPECIALIDADES -------------------------------------->
-<section class="specialties | u-container">
+<section class="specialties | u-container reveal">
     <h2 class="specialties__heading">Especialidades</h2>
 
     <div class="specialties__carousel js-carousel">

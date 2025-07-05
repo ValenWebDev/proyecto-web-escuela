@@ -5,7 +5,7 @@
 ?>
 
     <main class="historia | u-container">
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h1 class="historia__title">
         Breve historia de la E.E.S.T. Nº1 “Manuel Belgrano”, Distrito Tres de Febrero.
         </h1>
@@ -28,7 +28,7 @@
         ?>
     </section>
 
-    <section class="historia__video">
+    <section class="historia__video reveal">
         <h2 class="historia__subtitle">RECORRIDO</h2>
         <div class="video-frame">
         <video controls>
@@ -38,7 +38,7 @@
         </div>
     </section>
 
-    <section class="historia__video">
+    <section class="historia__video reveal">
         <h2 class="historia__subtitle">
         ¿Te gustaría conocer más acerca de la educación técnica?
         </h2>

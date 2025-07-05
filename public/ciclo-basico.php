@@ -7,12 +7,12 @@
 <main class="historia | u-container"><!-- reutilizamos la misma grid -->
 
     <!-- ===== Título principal ===== -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h1 class="historia__title especialidad__title">CICLO BÁSICO</h1>
     </section>
 
     <!-- ===== Fundamentación ===== -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">Fundamentación</h2>
 
 <?php
@@ -36,7 +36,7 @@ foreach ($parrafos as $p) {
     </section>
 
     <!-- ===== Capacidades ===== -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle">
         Al finalizar el taller del ciclo básico técnico, los alumnos deberán haber desarrollado capacidades para:
         </h2>

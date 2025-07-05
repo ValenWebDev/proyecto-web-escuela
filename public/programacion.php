@@ -7,12 +7,12 @@
 <main class="historia | u-container">
 
     <!-- Título principal -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h1 class="historia__title especialidad__title">TÉCNICO EN PROGRAMACIÓN</h1>
     </section>
 
     <!-- Objetivos -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">Objetivos</h2>
 
         <p class="historia__paragraph">
@@ -21,7 +21,7 @@
     </section>
 
     <!-- Campo ocupacional -->
-    <section class="historia__intro">
+    <section class="historia__intro reveal">
         <h2 class="historia__subtitle especialidad__subtitle">Campo ocupacional</h2>
 
         <p class="historia__paragraph">
