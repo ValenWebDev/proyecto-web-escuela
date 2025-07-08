@@ -61,6 +61,25 @@ slides.forEach(slide => {
 
 if (slides.length) startAuto();
 
+/* ===== Scroll reveal para .reveal ===== */
+(() => {
+    const els = document.querySelectorAll('.reveal');
+    if (!els.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const opt = { threshold: .15 };              // 15 % visible
+    const io  = new IntersectionObserver((entries) => {
+        entries.forEach(ent => {
+        if (ent.isIntersecting){
+            ent.target.classList.add('is-visible');
+            io.unobserve(ent.target);              // revela una sola vez
+        }
+        });
+    }, opt);
+
+    els.forEach(el => io.observe(el));
+})();
+
+
 /* =========================================================
     Fin de app.js
    ========================================================= */
