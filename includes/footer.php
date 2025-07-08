@@ -17,6 +17,6 @@
     </section>
     </footer>
 
-    <script src="/src/scripts/app.js" defer></script>
+    <script src="../src/scripts/app.js" defer></script>
 </body>
 </html>
