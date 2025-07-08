@@ -211,7 +211,7 @@ a:hover{text-decoration:underline}
     content:'';
     position:absolute;
     inset:0;
-    background:url('/src/assets/img/banner.webp') center/cover no-repeat;
+    background:url('../assets/img/banner.webp') center/cover no-repeat;
     z-index:-2;
 }
 .hero::after{
