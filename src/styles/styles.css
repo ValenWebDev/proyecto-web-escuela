@@ -145,6 +145,8 @@ a:hover{text-decoration:underline}
 
 .theme-switch {
     border: none;
+    background-color: transparent;
+    color: var(--color-text);
     font-size: 1.22rem;
     cursor: pointer;
 }
@@ -209,7 +211,7 @@ a:hover{text-decoration:underline}
     content:'';
     position:absolute;
     inset:0;
-    background:url('/src/assets/img/banner.png') center/cover no-repeat;
+    background:url('/src/assets/img/banner.webp') center/cover no-repeat;
     z-index:-2;
 }
 .hero::after{
@@ -262,7 +264,6 @@ a:hover{text-decoration:underline}
     overflow:hidden;
 }
 .specialties__slide{
-    display:none;
     width:100%;
     border-radius:.75rem;
     box-shadow:0 4px 16px rgba(0,0,0,.25);
@@ -302,6 +303,54 @@ a:hover{text-decoration:underline}
     .specialties__btn{width:25dvw}
     .specialties{max-width: 90dvw}
 }
+
+/* ===== ANIMACIONES ===== */
+
+/* ------ 1. Hero slow-zoom + pop-in logo ------ */
+@keyframes heroZoom {
+    from { transform: scale(1); }
+    to   { transform: scale(1.07); }
+}
+@keyframes logoPop {
+    0%   { opacity:0; transform: scale(.8) translateY(20px); }
+    60%  { opacity:1; transform: scale(1.15) translateY(0); }
+    100% { transform: none; }
+}
+.hero::before{
+    animation: heroZoom 18s linear infinite alternate;
+}
+.hero__logo{
+    animation: logoPop .8s cubic-bezier(.25,.8,.25,1) .2s both;
+}
+
+/* ------ 2. Carrusel slide-fade ------ */
+.specialties__slide{
+    transition: opacity .45s ease, transform .45s ease;
+    transform: translateX(8%);
+}
+.specialties__slide.is-active{
+    opacity:1;
+    transform: none;
+}
+
+/* ------ 3. Botones lift ------ */
+.specialties__btn{
+    transition: background .25s, color .25s, transform .25s, box-shadow .25s;
+}
+.specialties__btn:hover{
+    transform: translateY(-2px);
+    box-shadow:0 6px 14px rgba(0,0,0,.18);
+}
+
+/* ------ Respeto a usuarios con motion reducido ------ */
+@media (prefers-reduced-motion: reduce){
+    *, *::before, *::after{
+        animation:none!important;
+        transition-duration:0.01ms!important;
+    }
+}
+
+
 
 /* ===== HISTORIA (mobile-first) ===== */
 
@@ -381,6 +430,23 @@ h2.especialidad__subtitle {
     .historia__intro,
     .historia__video { width: 80dvw; }
 }
+
+/* === Scroll-reveal genérico ===================== */
+.reveal{
+    opacity:0;
+    transform: translateY(20px);
+    transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.is-visible{
+    opacity:1;
+    transform:none;
+}
+
+/* Si el usuario pide menos movimiento, desactiva */
+@media (prefers-reduced-motion: reduce){
+    .reveal { opacity:1!important; transform:none!important; }
+}
+
 
 /* ===== CONTACTO (mobile-first) ===== */
 
@@ -531,21 +597,39 @@ h2.especialidad__subtitle {
 
 
 /* =========================================
-    FOOTER
+FOOTER  (mobile-first)
    ========================================= */
 .footer{
-    background:var(--color-primary);
+    background: var(--color-primary);
     color:#fff;
-    padding:var(--gap) calc(var(--gap)*2);
+    padding: calc(var(--gap) * 1.5) calc(var(--gap) * 2);
     display:flex;
-    flex-direction:column;        /* mobile */
-    gap:var(--gap) 2rem;
-    font-size:.9rem;
+    flex-direction:column;      /* ① stack en mobile */
+    gap:1.25rem;
+    font-size:.95rem;           /* un pelín mayor */
+    line-height:1.45;
 }
-.footer__info{display:flex;align-items:center;gap:.5rem}
-.footer i{color:var(--color-accent)}
 
-/* ≥480 px  */
-@media (min-width:480px){
-    .footer{flex-direction:row;flex-wrap:wrap}
+.footer__info{
+    display:flex;
+    align-items:flex-start;     /* ② alinea top → mejor multi-línea */
+    gap:.75rem;
+    max-width:20rem;            /* evita líneas larguísimas en desktop */
 }
+
+.footer__info i{
+    color: var(--color-accent);
+    font-size:1.2rem;           /* ③ iconos más legibles */
+    flex:0 0 1.2rem;            /* reserva ancho fijo para que el texto alinee */
+}
+
+/* ≥ 600 px – fila con wrap */
+@media (min-width:600px){
+    .footer{
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:space-between; /* reparte mejor */
+        gap:2rem 3.5rem;               /* +hueco entre columnas y filas */
+    }
+}
+

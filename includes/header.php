@@ -9,14 +9,14 @@
     <title>EEST N.º 1 – <?= $pageTitle ?? 'Inicio'; ?></title>
 
     <link rel="stylesheet" href="/src/styles/styles.css">
-    <link rel="icon" href="/src/assets/img/logo.png" type="image/png">
+    <link rel="icon" href="/src/assets/img/logo.webp" type="image/webp">
     <script src="https://kit.fontawesome.com/d0c30b1127.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="<?= $pageSlug ?? 'page--home'; ?>">
 <header class="header">
     <div class="header__brand">
-        <img class="header__logo" src="/src/assets/img/logo.png" alt="Logo EEST N.º 1">
+        <img class="header__logo" src="/src/assets/img/logo.webp" alt="Logo EEST N.º 1">
         <span class="header__title">EESTN1</span>
     </div>
 
@@ -43,7 +43,7 @@
 
             <!-- Instagram -->
             <li class="nav__item">
-                <a href="https://www.instagram.com/eestn1.tf/" target="_blank" aria-label="Instagram oficial">
+                <a href="https://www.instagram.com/tecnica1.3f/" target="_blank" aria-label="Instagram oficial">
                     <i class="fa-brands fa-instagram"></i> <span class="sr-only">Instagram</span>
                 </a>
             </li>

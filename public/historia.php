@@ -43,7 +43,7 @@
         ¿Te gustaría conocer más acerca de la educación técnica?
         </h2>
         <div class="video-frame">
-        <video controls>
+        <video controls loading="lazy">
             <source src="/src/assets/videos/Presentacion.mp4" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
         </video>
