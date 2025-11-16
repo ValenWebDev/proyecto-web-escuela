@@ -6,7 +6,7 @@
 /* en la parte superior de styles.css */
 @font-face {
     font-family: 'Isocpeur';
-    src: url('/src/assets/fonts/ISOCPEUR.ttf')   format('truetype');
+    src: url('../../src/assets/fonts/ISOCPEUR.ttf')  format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -240,7 +240,10 @@ a:hover{text-decoration:underline}
 /* Especialidades */
 
 
-
+.seccion__title {
+    letter-spacing: 5px;
+    padding: clamp(20px, 2%, 50px);
+}
 
 .specialties{
     margin:3rem auto 4rem;
@@ -282,7 +285,7 @@ a:hover{text-decoration:underline}
 .specialties__btn{
     background:#fff;
     border:2px solid var(--color-primary);
-    width:45%;                 /* mobile */
+    width:95%;                 /* mobile */
     color:var(--color-primary);
     padding:.65rem 1.4rem;
     margin: 1rem .5rem 0;
@@ -538,18 +541,19 @@ h2.especialidad__subtitle {
 /* ===== INSCRIPCIÓN (mobile-first) ===== */
 
 .inscripcion{
-    min-height:calc(100vh - 80px - 64px);  /* rellena pantalla entre header/footer */
+    min-height:30vh;  /* rellena pantalla entre header/footer */
     display:flex;
     align-items:center;
     justify-content:center;
     padding:2.5rem 1rem;
+    margin-bottom: 15vh;
 }
 
 .card{
     background:var(--color-header-bg);
     border-radius:1rem;
     box-shadow:0 4px 16px rgb(0 0 0 /.14);
-    max-width:620px;
+    max-width:720px;
     width:100%;
     text-align:center;
     padding:2.5rem 1.75rem;
@@ -606,7 +610,7 @@ FOOTER  (mobile-first)
     display:flex;
     flex-direction:column;      /* ① stack en mobile */
     gap:1.25rem;
-    font-size:.95rem;           /* un pelín mayor */
+    font-size:1.1rem; 
     line-height:1.45;
 }
 
@@ -614,7 +618,7 @@ FOOTER  (mobile-first)
     display:flex;
     align-items:flex-start;     /* ② alinea top → mejor multi-línea */
     gap:.75rem;
-    max-width:20rem;            /* evita líneas larguísimas en desktop */
+    max-width:20rem;            /* evita líneas larguísimas en escritorio */
 }
 
 .footer__info i{
