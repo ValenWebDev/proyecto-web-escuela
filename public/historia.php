@@ -32,7 +32,7 @@
         <h2 class="historia__subtitle">RECORRIDO</h2>
         <div class="video-frame">
         <video controls>
-            <source src="/src/assets/videos/Recorrido.mp4" type="video/mp4">
+            <source src="../src/assets/videos/Recorrido.mp4" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
         </video>
         </div>
@@ -44,7 +44,7 @@
         </h2>
         <div class="video-frame">
         <video controls loading="lazy">
-            <source src="/src/assets/videos/Presentacion.mp4" type="video/mp4">
+            <source src="../src/assets/videos/Presentacion.mp4" type="video/mp4">
             Tu navegador no soporta la etiqueta de video.
         </video>
         </div>

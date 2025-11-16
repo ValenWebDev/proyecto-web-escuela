@@ -22,7 +22,7 @@
         <p  class="contacto__text">eest1tresdefebrero@abc.gob.ar</p>
 
         <h2 class="contacto__heading">
-            Información y Asesoramiento&nbsp;(inscripciones)
+            Información y Asesoramiento&nbsp;
         </h2>
         <p  class="contacto__text">oficinadealumnost1tfeb@gmail.com</p>
 
