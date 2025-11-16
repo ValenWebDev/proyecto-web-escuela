@@ -12,10 +12,8 @@
     <!-- FontAwesome (icons) -->
     <script src="https://kit.fontawesome.com/d0c30b1127.js" crossorigin="anonymous" defer></script>
     <link rel="icon" href="../src/assets/img/logo-small.webp" type="image/webp">
-    </head>
-    <body class="page--home">
-
-    <!-- ===== HEADER ===== -->
+</head>
+<body class="page--home">    <!-- ===== HEADER ===== -->
     <header class="header" role="banner">
         <div class="header__brand">
         <img class="header__logo" src="../src/assets/img/logo.webp" alt="Logo EEST N.º 1">
@@ -91,7 +89,7 @@
         <!-- HISTORIA -->
         <section id="id__historia" class="historia u-container">
         <section class="historia__intro reveal" aria-labelledby="historia-heading">
-            <h2 id="historia-heading" class="historia__title">Breve historia de la E.E.S.T. Nº1 “Manuel Belgrano”, Distrito Tres de Febrero.</h2>
+            <h2 id="historia-heading" class="historia__title">Breve historia de la E.E.S.T. Nº1 "Manuel Belgrano", Distrito Tres de Febrero.</h2>
 
             <!-- Parrafos (texto EXACTO que enviaste) -->
             <p class="historia__paragraph">Los inicios de la escuela se remontan al año 1936, cuando se crea la Escuela Profesional de Artes y Oficios, emplazada en la calle Neuquén 3019, de la localidad de Sáenz Peña, distrito de Tres de Febrero.</p>
@@ -329,7 +327,7 @@
 
             <!-- Resto del plan (texto exacto mantenido) -->
             <h4 class="historia__subtitle">Cuarto año</h4>
-            <p class="historia__paragraph">Formación general</p>
+            <p class="historia__paragraph"><strong>Formación general</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Literatura</li>
             <li class="historia--item">Inglés</li>
@@ -339,7 +337,7 @@
             <li class="historia--item">Geografía</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Científico Tecnológico</p>
+            <p class="historia__paragraph"><strong>Formación Científico Tecnológico</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Matemática Ciclo Superior</li>
             <li class="historia--item">Física</li>
@@ -347,7 +345,7 @@
             <li class="historia--item">Tecnologías Electrónicas</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Técnico Específica</p>
+            <p class="historia__paragraph"><strong>Formación Técnico Específica</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Laboratorio de Programación</li>
             <li class="historia--item">Laboratorio de Hardware</li>
@@ -357,7 +355,7 @@
 
             <!-- Quinto - Séptimo: mantenidos igual que en tu código -->
             <h4 class="historia__subtitle">Quinto año</h4>
-            <p class="historia__paragraph">Formación general</p>
+            <p class="historia__paragraph"><strong>Formación general</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Literatura</li>
             <li class="historia--item">Inglés</li>
@@ -367,7 +365,7 @@
             <li class="historia--item">Geografía</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Científico Tecnológico</p>
+            <p class="historia__paragraph"><strong>Formación Científico Tecnológico</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Análisis Matemático</li>
             <li class="historia--item">Sistemas Digitales</li>
@@ -375,7 +373,7 @@
             <li class="historia--item">Modelos y Sistemas</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Técnico Específica</p>
+            <p class="historia__paragraph"><strong>Formación Técnico Específica</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Laboratorio de Programación</li>
             <li class="historia--item">Laboratorio de Redes Informáticas</li>
@@ -384,7 +382,7 @@
             </ul>
 
             <h4 class="historia__subtitle">Sexto año</h4>
-            <p class="historia__paragraph">Formación general</p>
+            <p class="historia__paragraph"><strong>Formación general</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Literatura</li>
             <li class="historia--item">Inglés</li>
@@ -393,7 +391,7 @@
             <li class="historia--item">Arte</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Científico Tecnológico</p>
+            <p class="historia__paragraph"><strong>Formación Científico Tecnológico</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Matemática Discreta</li>
             <li class="historia--item">Sistemas Digitales</li>
@@ -402,7 +400,7 @@
             <li class="historia--item">Derecho del Trabajo</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Técnico Específica</p>
+            <p class="historia__paragraph"><strong>Formación Técnico Específica</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Laboratorio de Programación</li>
             <li class="historia--item">Laboratorio de Procesos Industriales</li>
@@ -411,12 +409,12 @@
             </ul>
 
             <h4 class="historia__subtitle">Séptimo año</h4>
-            <p class="historia__paragraph">Prácticas profesionalizantes</p>
+            <p class="historia__paragraph"><strong>Prácticas profesionalizantes</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Prácticas Profesionalizantes del Sector Informática</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Científico Tecnológico</p>
+            <p class="historia__paragraph"><strong>Formación Científico Tecnológico</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Emprendimientos Productivos y Desarrollo Local</li>
             <li class="historia--item">Evaluación de Proyectos</li>
@@ -424,7 +422,7 @@
             <li class="historia--item">Organización y Métodos</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Técnico Específica</p>
+            <p class="historia__paragraph"><strong>Formación Técnico Específica</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Proyecto, Diseño e Implementación de Sistemas Computacionales</li>
             <li class="historia--item">Proyecto de Desarrollo de Software para Plataformas Móviles</li>
@@ -434,8 +432,8 @@
         </section>
 
         <!-- M.M.O. -->
-        <section id="id__mmo" class="historia u-container">
-        <section class="historia__intro reveal" aria-labelledby="mmo-title">
+        <section id="id__mmo" class="historia u-container" aria-labelledby="mmo-title">
+        <section class="historia__intro reveal">
             <h2 id="mmo-title" class="historia__title especialidad__title">MAESTRO MAYOR DE OBRAS</h2>
         </section>
 
@@ -468,12 +466,12 @@
             <p class="historia__paragraph">Los Técnicos egresados con esta orientación, cuentan con una importante preparación técnico - profesional, con alcances que los habilitan para asumir diferentes y muy variados niveles de responsabilidad en el campo de la Construcciones Civiles, para proseguir estudios universitarios en carreras afines y terciarios en sus posibles especializaciones.</p>
         </section>
 
-        <section class="historia__intro reveal">
-            <h3 class="historia__subtitle especialidad__subtitle">Plan de estudios: Tecnicatura en Informática • Duración estimada: 4 años</h3>
+        <section class="historia__intro reveal" aria-labelledby="mmo-plan">
+            <h3 id="mmo-plan" class="historia__subtitle especialidad__subtitle">Plan de estudios: Tecnicatura en Maestro Mayor de Obra • Duración estimada: 4 años</h3>
 
             <!-- Plan (texto exacto) -->
             <h4 class="historia__subtitle">Cuarto año</h4>
-            <p class="historia__paragraph">Formación general</p>
+            <p class="historia__paragraph"><strong>Formación general</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Literatura</li>
             <li class="historia--item">Inglés</li>
@@ -483,7 +481,7 @@
             <li class="historia--item">Geografía</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Científico Tecnológico</p>
+            <p class="historia__paragraph"><strong>Formación Científico Tecnológico</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Matemática Ciclo Superior</li>
             <li class="historia--item">Física</li>
@@ -491,7 +489,7 @@
             <li class="historia--item">Conocimientos de los Materiales</li>
             </ul>
 
-            <p class="historia__paragraph">Formación Técnico Específica</p>
+            <p class="historia__paragraph"><strong>Formación Técnico Específica</strong></p>
             <ul class="historia__paragraph">
             <li class="historia--item">Dibujo Tecnológico</li>
             <li class="historia--item">Interpretación de Anteproyectos</li>
