@@ -4,8 +4,8 @@
 /dist/
 
 # ▾ ASSETS GRANDES (usa Git LFS o ignóralos)
-/src/assets/videos/
-/src/assets/img/originals/
+/../src/assets/videos/
+/../src/assets/img/originals/
 
 # ▾ SISTEMA
 .DS_Store
