@@ -47,7 +47,7 @@
 
 | Área | Antes (`legacy`) | Ahora (`main`) |
 |------|------------------|----------------|
-| **Estructura de archivos** | Organizado por carpetas, archivos.php y multiples hojas de estilo. | Estructura muy similar, pero reduciendo archivos innecesarios a uno solo |
+| **Estructura de archivos** | Organizado por carpetas, archivos.php y multiples hojas de estilo. | Estructura similar, pero reduciendo todo a un único index.php y styles.css (SPA) |
 | **Semántica HTML** | 4-5 `<h1>` por página, div-soup, poca semántica`. | Jerarquía H1-H3 correcta, `header / main / footer`, listas semánticas. |
 | **Responsive design** | Maquetación fija `960 px`; se desborda en móvil. | **Mobile-first**, grid / flex, unidades fluidas, `clamp()`. |
 | **Navegación** | Barra horizontal que colapsa; sin menu desplegable en dispositivos móviles. | **Menú hamburguesa** con slide-panel + submenú hover en desktop. |
