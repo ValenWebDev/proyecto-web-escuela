@@ -74,10 +74,10 @@
         <h2 id="especialidades-heading" class="specialties__heading">Especialidades</h2>
 
         <div class="specialties__carousel js-carousel" aria-live="polite">
-            <img class="specialties__slide is-active" src="../src/assets/img/CICLO-BASICO.webp"  alt="Ciclo básico">
-            <img class="specialties__slide" src="../src/assets/img/TECNICA-EN-INF.webp" alt="Técnica en Informática">
-            <img class="specialties__slide" src="../src/assets/img/PROGRAMACION3.webp"  alt="Programación">
-            <img class="specialties__slide" src="../src/assets/img/MAESTRO-2.webp" alt="M.M.O.">
+            <a class="specialties__link" href="#id__basico"><img class="specialties__slide is-active" src="../src/assets/img/CICLO-BASICO.webp"  alt="Ciclo básico"></a>
+            <a class="specialties__link" href="#id__informatica"><img class="specialties__slide" src="../src/assets/img/TECNICA-EN-INF.webp" alt="Técnica en Informática"></a>
+            <a class="specialties__link" href="#id__programacion"><img class="specialties__slide" src="../src/assets/img/PROGRAMACION3.webp"  alt="Programación"></a>
+            <a class="specialties__link" href="#id__mmo"><img class="specialties__slide" src="../src/assets/img/MAESTRO-2.webp" alt="M.M.O."></a>
         </div>
 
         <div class="specialties__controls" aria-hidden="false">
@@ -652,7 +652,7 @@
         /* ---------- SIMPLE CAROUSEL ---------- */
         const carousel = qs('.js-carousel');
         if (carousel) {
-        const slides = qsa('.specialties__slide', carousel) || qsa('.specialties__slide');
+        const slides = Array.from(carousel.querySelectorAll('.specialties__slide'));
         const prevBtn = qs('.js-prev');
         const nextBtn = qs('.js-next');
         let autoplay = true;
@@ -661,22 +661,33 @@
         if (idx === -1) idx = 0;
 
         const show = (n) => {
-        idx = (n + slides.length) % slides.length; // mueve esto arriba
-        slides.forEach((s,i) => {
-            s.classList.toggle('is-active', i === idx);
-            s.style.opacity = (i===idx)? '1':'0';
-            s.setAttribute('aria-hidden', i===idx ? 'false' : 'true');
-        });
+            idx = (n + slides.length) % slides.length;
+            slides.forEach((s,i) => {
+            const link = s.closest('.specialties__link') || s.parentElement;
+            const isActive = (i === idx);
+
+            // visual
+            s.classList.toggle('is-active', isActive);
+            s.style.opacity = isActive ? '1' : '0';
+            s.setAttribute('aria-hidden', isActive ? 'false' : 'true');
+
+            // accesibilidad + evitar clicks en slides ocultos
+            if (link) {
+                link.style.pointerEvents = isActive ? 'auto' : 'none';
+                link.style.zIndex = isActive ? '2' : '1';
+                link.setAttribute('aria-hidden', isActive ? 'false' : 'true');
+                link.classList.toggle('is-active', isActive);
+            }
+            });
         };
 
         const next = () => show(idx + 1);
         const prev = () => show(idx - 1);
-        // initial
+
         show(idx);
-        // controls
         nextBtn && nextBtn.addEventListener('click', () => { next(); pauseAutoplay(); });
         prevBtn && prevBtn.addEventListener('click', () => { prev(); pauseAutoplay(); });
-        // autoplay
+
         const startAutoplay = () => {
             if (prefersReduced) return;
             timer = setInterval(next, 4200);
