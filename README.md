@@ -99,7 +99,7 @@
 
 ```bash
 # 1) Clona el repo
-git clone https://github.com/<user>/proyecto-web-escuela.git
+git clone --branch main https://github.com/valenwebdev/proyecto-web-escuela.git
 cd proyecto-web-escuela
 
 # 2) Instala dependencias de desarrollo
