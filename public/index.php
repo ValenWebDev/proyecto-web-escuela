@@ -469,7 +469,7 @@
         <section class="historia__intro reveal" aria-labelledby="mmo-plan">
             <h3 id="mmo-plan" class="historia__subtitle especialidad__subtitle">Plan de estudios: Tecnicatura en Maestro Mayor de Obra • Duración estimada: 4 años</h3>
 
-            <!-- Plan (texto exacto) -->
+            <!-- Plan -->
             <h4 class="historia__subtitle">Cuarto año</h4>
             <p class="historia__paragraph"><strong>Formación general</strong></p>
             <ul class="historia__paragraph">
@@ -497,8 +497,72 @@
             <li class="historia--item">Sistemas Constructivos</li>
             <li class="historia--item">Proyecto</li>
             </ul>
+            <h4 class="historia__subtitle">Quinto año</h4>
+            <p class="historia__paragraph"><strong>Formación general</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Literatura</li>
+                <li class="historia--item">Inglés</li>
+                <li class="historia--item">Educación Física</li>
+                <li class="historia--item">Salud y Adolescencia</li>
+                <li class="historia--item">Historia</li>
+                <li class="historia--item">Geografía</li>
+            </ul>
+            <p class="historia__paragraph"><strong>Formación Científico Tecnológico</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Análisis Matemático</li>
+                <li class="historia--item">Instalaciones Eléctricas</li>
+                <li class="historia--item">Resistencia y Ensayos de los Materiales</li>
+            </ul>
+            <p class="historia__paragraph"><strong>Formación Técnico Específica</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Documentación Técnica</li>
+                <li class="historia--item">Materiales de Obra</li>
+                <li class="historia--item">Sistemas Constructivos</li>
+                <li class="historia--item">Proyecto</li>
+            </ul>
 
-            <!-- resto del plan mantenido idéntico -->
+            <h4 class="historia__subtitle">Sexto año</h4>
+            <p class="historia__paragraph"><strong>Formación general</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Literatura</li>
+                <li class="historia--item">Inglés</li>
+                <li class="historia--item">Educación Física</li>
+                <li class="historia--item">Filosofía</li>
+                <li class="historia--item">Arte</li>
+            </ul>
+            <p class="historia__paragraph"><strong>Formación Científico Tecnológico</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Matemática Aplicada</li>
+                <li class="historia--item">Instalaciones Sanitarias y de Gas</li>
+                <li class="historia--item">Estructuras</li>
+                <li class="historia--item">Derecho del Trabajo</li>
+            </ul>
+            <p class="historia__paragraph"><strong>Formación Técnico Específica</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Proyectos de Instalaciones</li>
+                <li class="historia--item">Dirección de la Ejecución de Instalaciones</li>
+                <li class="historia--item">Sistemas Constructivos</li>
+                <li class="historia--item">Proyecto</li>
+            </ul>
+
+            <h4 class="historia__subtitle">Séptimo año</h4>
+            <p class="historia__paragraph"><strong>Prácticas profesionalizantes</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Prácticas Profesionalizantes del Sector Construcciones Edilicias</li>
+            </ul>
+            <p class="historia__paragraph"><strong>Formación Científico Tecnológico</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Emprendimientos Productivos y Desarrollo Local</li>
+                <li class="historia--item">Instalaciones de Acondicionamiento del Aire</li>
+                <li class="historia--item">Estructuras</li>
+            </ul>
+            <p class="historia__paragraph"><strong>Formación Técnico Específica</strong></p>
+            <ul class="historia__paragraph">
+                <li class="historia--item">Proyecto Final</li>
+                <li class="historia--item">Dirección de Obra</li>
+                <li class="historia--item">Ejercicio Profesional de la Construcción</li>
+            </ul>
+
         </section>
         </section>
 
